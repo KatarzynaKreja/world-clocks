@@ -18,6 +18,10 @@ select {
   border-radius: 7px;
   padding: 12px;
 }
+a {
+  opacity: 0.8;
+  font-size: 18px;
+}
 .container {
   max-width: 600px;
   background-color: whitesmoke;
