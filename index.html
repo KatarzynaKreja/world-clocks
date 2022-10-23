@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=W" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock by Katarzyna Kreja</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -16,21 +18,28 @@
         <option value="">New York</option>
         <option value="">Auckland</option>
       </select>
-      <div class="city">
+      <div class="city" id="warsaw">
         <div>
           <h3>Warsaw</h3>
-          <div class="date">August 15th 2022</div>
+          <div class="date"></div>
         </div>
-
-        <div class="time">13:48:15</div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="rome">
         <div>
           <h3>Rome</h3>
-          <div class="date">August 15th 2022</div>
+          <div class="date"></div>
         </div>
 
-        <div class="time">13:48:15</div>
+        <div class="time"></div>
+      </div>
+      <div class="city" id="hongkong">
+        <div>
+          <h3>Hongkong</h3>
+          <div class="date"></div>
+        </div>
+
+        <div class="time"></div>
       </div>
     </div>
     <footer>

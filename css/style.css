@@ -12,7 +12,8 @@ h3 {
 }
 select {
   display: block;
-  max-width: 100%;
+  margin: 0px auto;
+  width: 600px;
   font-size: 20px;
   border-radius: 7px;
   padding: 12px;
@@ -21,7 +22,7 @@ select {
   max-width: 600px;
   background-color: whitesmoke;
   margin: 60px auto;
-  padding: 25px 0;
+  padding: 25px 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 12px;
 }
