@@ -8,13 +8,13 @@ function updateTimes() {
     cataniaTimeElement.innerHTML = cataniaTimezone.format("HH:mm:ss");
   }
 
-  let cracowElement = document.querySelector("#cracow");
-  if (cracowElement) {
-    let cracowTimeElement = cracowElement.querySelector(".time");
-    let cracowDateElement = cracowElement.querySelector(".date");
-    let cracowTimezone = moment().tz("Europe/Warsaw");
-    cracowDateElement.innerHTML = cracowTimezone.format("MMMM	Do YYYY");
-    cracowTimeElement.innerHTML = cracowTimezone.format("HH:mm:ss");
+  let reykjavikElement = document.querySelector("#reykjavik");
+  if (reykjavikElement) {
+    let reykjavikTimeElement = reykjavikElement.querySelector(".time");
+    let reykjavikDateElement = reykjavikElement.querySelector(".date");
+    let reykjavikTimezone = moment().tz("Iceland");
+    reykjavikDateElement.innerHTML = reykjavikTimezone.format("MMMM	Do YYYY");
+    reykjavikTimeElement.innerHTML = reykjavikTimezone.format("HH:mm:ss");
   }
 
   let hongkongElement = document.querySelector("#hongkong");
